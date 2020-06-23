@@ -28,7 +28,7 @@ int main(){
     //Here is one way of printing stuff.  It's inherited from C:
     //it is VERY simple, but doesn't handle more advanced C++ constructs as well.
     printf("hi"); //printf stands for print formatted.
-    print("world");//Whoops! I made a mistake! Note the red line under print: it's not defined!
+    printf("world");//Whoops! I made a mistake! Note the red line under print: it's not defined!
 
     //Normal functions must return something here.  But main() implicitly returns zero.
     //By convention, return values of zero indicate success, and any other value is an error code.
@@ -36,7 +36,7 @@ int main(){
     //return 451; //commented out code doesn't execute
     /*        ^ is a reference.  Ten points* to whoever tells me what it is to!
 
-
+  
 
             *points not redeemable for anything, at all, ever, period.
     */
