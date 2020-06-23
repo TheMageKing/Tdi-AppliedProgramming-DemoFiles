@@ -3,10 +3,11 @@
 int main(){
     int numA = 4;
     int numB = 10;
+
     int& numRefA = numA;
     int& numRefB = numB;
     int& numRefC = numA;
-    int& numRefD = 4;
+    int& numRefD = numB;
     tdi::print(numRefA);
     numRefA = 11;
     tdi::print(numRefC++);// the ++ operator increments a number by 1.

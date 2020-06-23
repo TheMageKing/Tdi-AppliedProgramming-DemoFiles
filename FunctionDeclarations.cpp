@@ -1,7 +1,11 @@
 #include <iostream>
+#include <vector>
+
+void someFunction();
 
 int main(){
     someFunction();
+    std::vector<float> x;
 }
 
 void someFunction(){
