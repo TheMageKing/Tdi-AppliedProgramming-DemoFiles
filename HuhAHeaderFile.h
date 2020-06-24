@@ -4,7 +4,7 @@
 
 namespace tdi{
     void print(const std::string& str){
-        std::cout << str << std::endl;
+        operator<<(std::cout, str) << std::endl;
     }
     void print(const int& num){
         print(std::to_string(num));

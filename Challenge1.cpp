@@ -1,8 +1,12 @@
 #include <iostream>
+#include <cmath>
 #include "HuhAHeaderFile.h"
 
-double calculateDistance(int x1, int x2, int y1, int y2);
-int someFunction(){
+double calculateDistance(int x1, int x2, int y1, int y2){
+    std::sqrt(std::pow(x2-x1,2) + std::pow(y2-y1, 2));
+}
+int tdiFunction(){
+    std::sqrt(12);
     int x1;
     int x2;
     int y1;
@@ -18,14 +22,11 @@ int someFunction(){
     std::cin >> y2;
 
     return calculateDistance(x1, x2, y1, y2);
-    }
-
-{
 
 }
 
 
 int main(){
-    std::cout << someFunction(1, 2.3);
+    std::cout << tdiFunction();
     tdi::print("x");
 }
