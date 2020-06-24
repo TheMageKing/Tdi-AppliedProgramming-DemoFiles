@@ -17,7 +17,7 @@ int main(){
 
 
 void printYouFools(){//not declared above!
-    std::cout << "You FOOLS!";
+    std::cout << "You FOOLS!\n";
 }
 
 int functionA(){//Declared above: defined here
