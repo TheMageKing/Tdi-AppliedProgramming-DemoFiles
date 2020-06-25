@@ -3,7 +3,7 @@
 int main(){
     int numA = 4;
     int numB = 10;
-
+    tdi::print("Apples");
     int& numRefA = numA;
     int& numRefB = numB;
     int& numRefC = numA;
